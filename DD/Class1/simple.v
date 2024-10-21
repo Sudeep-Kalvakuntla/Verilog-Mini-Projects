@@ -1,0 +1,11 @@
+module stupid (A, B, C, D, E);
+
+  input A, B, C;
+  output D, E;
+  wire w1;
+
+  and G1 (w1, A, B);
+  not G2 (E, C);
+  or G3 (w1, E, G);
+
+endmodule

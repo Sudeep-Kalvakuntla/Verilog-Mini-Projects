@@ -1,0 +1,76 @@
+$date
+	Sun Oct 13 14:37:14 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module one_hot_decoder_tb $end
+$var wire 8 ! F [7:0] $end
+$var reg 1 " A $end
+$var reg 1 # B $end
+$var reg 1 $ C $end
+$var integer 32 % i [31:0] $end
+$scope module uut $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 $ C $end
+$var wire 8 & F [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10000000 &
+b0 %
+0$
+0#
+0"
+b10000000 !
+$end
+#10000
+b1000000 !
+b1000000 &
+1$
+b1 %
+#20000
+b100000 !
+b100000 &
+1#
+0$
+b10 %
+#30000
+b10000 !
+b10000 &
+1$
+b11 %
+#40000
+b1000 !
+b1000 &
+1"
+0#
+0$
+b100 %
+#50000
+b100 !
+b100 &
+1$
+b101 %
+#60000
+b10 !
+b10 &
+1#
+0$
+b110 %
+#70000
+b1 !
+b1 &
+1$
+b111 %
+#80000
+b1000 %
