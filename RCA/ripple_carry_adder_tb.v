@@ -31,6 +31,8 @@ module ripple_carry_adder_tb ();
     B = 4'b1111;
     #10;
 
+    $finish;
+
   end
 
 endmodule
